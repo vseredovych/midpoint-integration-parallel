@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug"
+			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint"
+			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1559,7 +1559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug"
+			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1583,7 +1583,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint"
+			"value" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel"
 		}
 	],
 	"kind" : "cache",

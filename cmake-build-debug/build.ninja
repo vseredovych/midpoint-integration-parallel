@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug/
+cmake_ninja_workdir = /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target untitled
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /Users/outlawedchop/root/Studying/University/term10/Parall
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_Debug /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/main.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_Debug /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/main.cpp || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2a
   INCLUDES = -I/opt/homebrew/Cellar/open-mpi/4.1.3/include
@@ -80,7 +80,7 @@ build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/ma
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -91,7 +91,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint -B/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug
+  COMMAND = cd /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel -B/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug
+# Folder: /Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug
 
 build all: phony untitled
 

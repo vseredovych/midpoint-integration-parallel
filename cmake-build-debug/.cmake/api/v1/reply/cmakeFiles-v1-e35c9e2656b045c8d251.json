@@ -1170,8 +1170,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint/cmake-build-debug",
-		"source" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midlepointint"
+		"build" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel/cmake-build-debug",
+		"source" : "/Users/outlawedchop/root/Studying/University/term10/ParallelComputing/project/midpoint-integration-parallel"
 	},
 	"version" : 
 	{

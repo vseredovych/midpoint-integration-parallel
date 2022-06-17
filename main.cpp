@@ -32,7 +32,7 @@ double f_defined_integral(double a, double b, double (*func)(double)) {
 }
 
 double absolute_error(double actual_value, double approximated_value) {
-    return actual_value - approximated_value;
+    return abs(actual_value - approximated_value);
 }
 
 double midpoint_quadrature_integration(
