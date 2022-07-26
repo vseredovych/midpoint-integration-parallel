@@ -1,1 +1,3 @@
-# Middle Point Rule parallelized with Open MPI
+# Description
+
+Contains presentation and Implementation of Open MPI parallelized algorithm of Midpoint integration.

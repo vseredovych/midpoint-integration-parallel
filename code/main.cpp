@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "mpi.h"
 #include <math.h>
+#include "mpi.h"
 
 
 //////////////////// Example 1 ////////////////////
@@ -60,8 +60,6 @@ double midpoint_quadrature_integration(
      * local_sum: variable to store integral approximation on each sub-interval
      *                     calculated by a single process
      */
-    double sum;
-    double local_sum;
 
     /*
      * i: Variable for iterating through loop
@@ -70,11 +68,12 @@ double midpoint_quadrature_integration(
      * end: Ending of a sub-interval on a specific iteration.
      * midpoint: Is the middle point between "from" and "end" values.
      */
-    int i;
+
     int n = (b - a) / h;
+    double sum, local_sum;
     double from, to, midpoint;
 
-    for (i = world_rank; i < n; i += world_size) {
+    for (int i = world_rank; i < n; i += world_size) {
         from = a + i * h;
         to = a + (i + 1) * h;
         midpoint = (from + to) / 2;
